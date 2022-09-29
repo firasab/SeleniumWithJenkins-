@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-29T10:43:23 IDT" name="Expedia Test" finished-at="2022-09-29T10:43:31 IDT" duration-ms="8581">
+    <groups>
+    </groups>
+    <test started-at="2022-09-29T10:43:23 IDT" name="Expedia Test" finished-at="2022-09-29T10:43:31 IDT" duration-ms="8581">
+      <class name="TestWithDP">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:TestWithDP@16a0ee18]" started-at="2022-09-29T10:43:11 IDT" name="beforeSuite" finished-at="2022-09-29T10:43:23 IDT" duration-ms="11665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestWithDP@16a0ee18]" started-at="2022-09-29T10:43:23 IDT" name="beforeMethod" finished-at="2022-09-29T10:43:23 IDT" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testExpediaLinks(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestWithDP@16a0ee18]" started-at="2022-09-29T10:43:23 IDT" name="testExpediaLinks" data-provider="getData" finished-at="2022-09-29T10:43:24 IDT" duration-ms="1195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1098020]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Roda Amwaj Suites Jumeirah Beach Residence]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dubai]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The Walk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpediaLinks -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestWithDP@16a0ee18]" started-at="2022-09-29T10:43:24 IDT" name="beforeMethod" finished-at="2022-09-29T10:43:24 IDT" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testExpediaLinks(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestWithDP@16a0ee18]" started-at="2022-09-29T10:43:24 IDT" name="testExpediaLinks" data-provider="getData" finished-at="2022-09-29T10:43:26 IDT" duration-ms="1421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[412338]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ramada Plaza Jumeirah Beach]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dubai]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bahar 7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpediaLinks -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestWithDP@16a0ee18]" started-at="2022-09-29T10:43:26 IDT" name="beforeMethod" finished-at="2022-09-29T10:43:26 IDT" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testExpediaLinks(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestWithDP@16a0ee18]" started-at="2022-09-29T10:43:26 IDT" name="testExpediaLinks" data-provider="getData" finished-at="2022-09-29T10:43:27 IDT" duration-ms="1048" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[179356]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Meriton Suites Kent Street]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[528 Kent Street]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpediaLinks -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestWithDP@16a0ee18]" started-at="2022-09-29T10:43:27 IDT" name="beforeMethod" finished-at="2022-09-29T10:43:28 IDT" duration-ms="668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testExpediaLinks(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestWithDP@16a0ee18]" started-at="2022-09-29T10:43:28 IDT" name="testExpediaLinks" data-provider="getData" finished-at="2022-09-29T10:43:29 IDT" duration-ms="1067" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2356868]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Marlin Waterloo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[111 Westminster Bridge Road]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpediaLinks -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestWithDP@16a0ee18]" started-at="2022-09-29T10:43:29 IDT" name="beforeMethod" finished-at="2022-09-29T10:43:29 IDT" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testExpediaLinks(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestWithDP@16a0ee18]" started-at="2022-09-29T10:43:29 IDT" name="testExpediaLinks" data-provider="getData" finished-at="2022-09-29T10:43:30 IDT" duration-ms="1008" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1374533]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hyatt Regency Creek Heights Residences]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dubai]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dubai Healthcare City]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpediaLinks -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestWithDP@16a0ee18]" started-at="2022-09-29T10:43:30 IDT" name="beforeMethod" finished-at="2022-09-29T10:43:30 IDT" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testExpediaLinks(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestWithDP@16a0ee18]" started-at="2022-09-29T10:43:30 IDT" name="testExpediaLinks" data-provider="getData" finished-at="2022-09-29T10:43:31 IDT" duration-ms="1046" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Leonardo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tel aviv]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[156 Hayarkon Street, Tel Aviv, 63451]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExpediaLinks -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:TestWithDP@16a0ee18]" started-at="2022-09-29T10:43:31 IDT" name="afterSuite" finished-at="2022-09-29T10:43:31 IDT" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- TestWithDP -->
+    </test> <!-- Expedia Test -->
+  </suite> <!-- Expedia Test -->
+</testng-results>
