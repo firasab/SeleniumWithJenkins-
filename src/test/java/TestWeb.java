@@ -90,7 +90,7 @@ public class TestWeb {
                 js.executeScript("document.querySelector('[data-stid=\"apply-date-picker\"]').click();");
                 takeScr.takeScreenShot("AfterTheCheck"+x+".png");
                 x++;
-                
+
                 break;
             }
         }
