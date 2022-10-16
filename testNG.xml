@@ -3,7 +3,7 @@
     <test name="Expedia Test" >
 
         <classes>
-            <class name="TestWithDP" />
+            <class name="TestWeb" />
         </classes>
     </test>
 

@@ -6,14 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="971da4bc-4085-4db5-a9b7-1113d17e3899" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BeforeTheCheck0.png" beforeDir="false" afterPath="$PROJECT_DIR$/BeforeTheCheck0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.csv" beforeDir="false" afterPath="$PROJECT_DIR$/output.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/OpenBrowsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/OpenBrowsers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/TakeScreenShot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/TakeScreenShot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testPing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestWeb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/BingHome.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/BingHome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testPing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestWeb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testNG.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
