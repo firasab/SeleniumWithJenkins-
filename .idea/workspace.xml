@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="971da4bc-4085-4db5-a9b7-1113d17e3899" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestWeb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/TakeScreenShot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/TakeScreenShot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestWeb.testExpediaLinks">
+  <component name="RunManager" selected="TestNG.TestWeb">
     <configuration name="TestWeb (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWithJenkins-" />
       <option name="PACKAGE_NAME" value="" />
@@ -160,8 +159,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestWeb.testExpediaLinks" />
         <item itemvalue="TestNG.TestWeb" />
+        <item itemvalue="TestNG.TestWeb.testExpediaLinks" />
         <item itemvalue="TestNG.TestWeb (1)" />
         <item itemvalue="TestNG.TestWeb" />
         <item itemvalue="TestNG.TestWeb" />
