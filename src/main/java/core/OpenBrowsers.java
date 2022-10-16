@@ -11,7 +11,7 @@ package core;
         import org.openqa.selenium.By;
         import org.openqa.selenium.chrome.ChromeOptions;
         import org.openqa.selenium.firefox.FirefoxOptions;
-        import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.firefox.FirefoxProfile;
 
 
 public class OpenBrowsers {
@@ -36,7 +36,7 @@ public class OpenBrowsers {
 
     public static WebDriver openFFWithOptions() {
         WebDriver driver;
-        System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver.exe");
         String downloadFilepath = "downloads";
         File file = new File(downloadFilepath);
 
@@ -55,6 +55,7 @@ public class OpenBrowsers {
         // Creating FirefoxOptions to set profile
         FirefoxOptions option = new FirefoxOptions();
         option.setProfile(profile);
+        option.setHeadless(true);
         // Launching browser with desired capabilities
 
         driver = new FirefoxDriver(option);
@@ -66,19 +67,19 @@ public class OpenBrowsers {
         WebDriver driver;
         if(browser.equals("firefox")) {
             //Setting webdriver.gecko.driver property
-            System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver.exe");
+            System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver.exe");
 
             //Instantiating driver object and launching browser
             driver = new FirefoxDriver();
         }else if(browser.equals("chrome")) {
-            System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 
             //Instantiating driver object
             driver = new ChromeDriver();
         }else if(browser.equals("edge")) {
             System.setProperty(
                     "webdriver.edge.driver",
-                    "src/main/resources/msedgedriver.exe");
+                    "./drivers/msedgedriver.exe");
             // Instantiate a ChromeDriver class.
             driver = new EdgeDriver();
         }else {

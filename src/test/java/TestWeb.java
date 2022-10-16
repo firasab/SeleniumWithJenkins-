@@ -20,7 +20,7 @@ import pages.BingResults;
 
 
 
-public class testPing {
+public class TestWeb {
     WebDriver driver;
     TakeScreenShot takeScr;
     int x =0;
@@ -29,8 +29,8 @@ public class testPing {
     ArrayList<ArrayList<String>> outputData = new ArrayList<ArrayList<String>>();
     @BeforeSuite
     public void beforeSuite() throws InterruptedException {
-       // driver = OpenBrowsers.openchromeWithOptions();
-        driver = OpenBrowsers.openBrowser("chrome");
+        driver = OpenBrowsers.openchromeWithOptions();
+        //driver = OpenBrowsers.openBrowser("chrome");
         takeScr = new TakeScreenShot(driver);
         outputHeaders.add("hotel_id");
         outputHeaders.add("name");
@@ -75,22 +75,28 @@ public class testPing {
             if (link.startsWith("https://www.expedia.com/") && link.endsWith("Hotel-Information")) {
                 currOutput.add(link);
                 driver.get(link);
+                Thread.sleep(5000);
+                WebElement rate = driver.findElement(By.xpath("//*[@id=\"app-layer-base\"]/div[1]/div[2]/div[1]/div[2]/div[3]/div/div[1]/div/div[2]/div/h3"));
+                currOutput.add(rate.getText());
+
+
+                outputData.add(currOutput);
                 takeScr.takeScreenShot("BeforeTheCheck"+x+".png");
+
+                js.executeScript("document.getElementById('hotels-check-in-btn').click();");
+                js.executeScript("document.querySelector('[aria-label=\"Oct 20, 2022\"]').click();");
+                js.executeScript("document.getElementById('hotels-check-out-btn').click();");
+                js.executeScript("document.querySelector('[aria-label=\"Oct 30, 2022\"]').click();");
+                js.executeScript("document.querySelector('[data-stid=\"apply-date-picker\"]').click();");
+                takeScr.takeScreenShot("AfterTheCheck"+x+".png");
                 x++;
+                
                 break;
             }
         }
-        WebElement rate = driver.findElement(By.xpath("//*[@id=\"app-layer-base\"]/div[1]/div[2]/div[1]/div[2]/div[3]/div/div[1]/div/div[2]/div/h3"));
-        currOutput.add(rate.getText());
 
-        outputData.add(currOutput);
-        js.executeScript("document.getElementById('hotels-check-in-btn').click();");
-        js.executeScript("document.querySelector('[aria-label=\"Oct 20, 2022\"]').click();");
-        js.executeScript("document.getElementById('hotels-check-out-btn').click();");
-        js.executeScript("document.querySelector('[aria-label=\"Oct 30, 2022\"]').click();");
-        js.executeScript("document.querySelector('[data-stid=\"apply-date-picker\"]').click();");
-        takeScr.takeScreenShot("BeforeTheCheck"+x+".png");
-        x++;
+
+
 
     }
 
@@ -101,7 +107,7 @@ public class testPing {
     }
     @AfterSuite
     public void afterSuite() {
-        //driver.quit();
+        driver.quit();
         List<String[]> data = new ArrayList<String[]>();
         for(ArrayList<String> row: outputData) {
             String[] row_data = new String[row.size()];

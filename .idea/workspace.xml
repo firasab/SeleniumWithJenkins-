@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="971da4bc-4085-4db5-a9b7-1113d17e3899" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BingHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BingHome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestWithDP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testPing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/input.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/output.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestWithDP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BeforeTheCheck0.png" beforeDir="false" afterPath="$PROJECT_DIR$/BeforeTheCheck0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.csv" beforeDir="false" afterPath="$PROJECT_DIR$/output.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/OpenBrowsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/OpenBrowsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/TakeScreenShot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/TakeScreenShot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testPing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/BingHome.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/BingHome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testPing.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,17 +46,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/firas/Desktop/SeleniumWithJenkins-/src/test",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/firas/Desktop/SeleniumWithJenkins-/src/test&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\firas\Desktop\SeleniumWithJenkins-\src\test" />
@@ -73,11 +74,11 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.testPing">
-    <configuration name="testPing (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestWeb.testExpediaLinks">
+    <configuration name="TestWeb (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWithJenkins-" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="testPing" />
+      <option name="MAIN_CLASS_NAME" value="TestWeb" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -85,10 +86,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testPing (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestWeb" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWithJenkins-" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="testPing" />
+      <option name="MAIN_CLASS_NAME" value="TestWeb" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -96,7 +97,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testPing (4)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestWeb" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWithJenkins-" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestWeb" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWeb" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWithJenkins-" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestWeb" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWeb" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWithJenkins-" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestWeb" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWeb.testExpediaLinks" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWithJenkins-" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestWeb" />
+      <option name="METHOD_NAME" value="testExpediaLinks" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testPing (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWithJenkins-" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="testPing" />
@@ -118,25 +164,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testPing.testExpediaLinks" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumWithJenkins-" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="testPing" />
-      <option name="METHOD_NAME" value="testExpediaLinks" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.testPing" />
-        <item itemvalue="TestNG.testPing.testExpediaLinks" />
-        <item itemvalue="TestNG.testPing (4)" />
-        <item itemvalue="TestNG.testPing (3)" />
-        <item itemvalue="TestNG.testPing (2)" />
+        <item itemvalue="TestNG.TestWeb.testExpediaLinks" />
+        <item itemvalue="TestNG.TestWeb" />
+        <item itemvalue="TestNG.TestWeb (1)" />
+        <item itemvalue="TestNG.TestWeb" />
+        <item itemvalue="TestNG.TestWeb" />
       </list>
     </recent_temporary>
   </component>

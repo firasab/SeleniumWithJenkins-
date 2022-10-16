@@ -4,6 +4,7 @@ package core;
         import java.io.File;
         import java.io.IOException;
 
+        import io.qameta.allure.Allure;
         import org.apache.commons.io.FileUtils;
         import org.openqa.selenium.OutputType;
         import org.openqa.selenium.TakesScreenshot;
@@ -25,6 +26,8 @@ public class TakeScreenShot {
         //Copy file at destination
 
         FileUtils.copyFile(SrcFile, DestFile);
+        Allure.addAttachment("Screenshot", FileUtils.openInputStream(SrcFile));
+
 
     }
 }
