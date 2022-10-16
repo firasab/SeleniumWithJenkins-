@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="971da4bc-4085-4db5-a9b7-1113d17e3899" name="Changes" comment="" />
+    <list default="true" id="971da4bc-4085-4db5-a9b7-1113d17e3899" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BingHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BingHome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestWithDP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testPing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/input.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/output.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestWithDP.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,26 +45,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/firas/Desktop/Selenium_GetHotelsDataT_Jin/src/test/java/ExpediaTest&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/firas/Desktop/SeleniumWithJenkins-/src/test",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\firas\Desktop\SeleniumWithJenkins-\src\test" />
       <recent name="C:\Users\firas\Desktop\Selenium_GetHotelsDataT_Jin\src\test\java\ExpediaTest" />
       <recent name="C:\Users\firas\Desktop\Selenium_GetHotelsDataT_Jin\src\test" />
       <recent name="C:\Users\firas\Desktop\Selenium_GetHotelsDataT_Jin" />
       <recent name="C:\Users\firas\Desktop\Selenium_FindHotel\src\test\java" />
-      <recent name="C:\Users\firas\Desktop\Selenium_FindHotel\src\main\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\firas\Desktop\SeleniumWithJenkins-\src\test\java" />
       <recent name="C:\Users\firas\Desktop\Selenium_GetHotelsDataT_Jin\src\test\java" />
       <recent name="C:\Users\firas\Desktop\Selenium_GetHotelsDataT_Jin\src\test\java\ExpediaTest" />
     </key>
@@ -63,41 +73,11 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/firas/Desktop/Selenium_GetHotelsDataT_Jin/src/test/java/testNG.xml">
-    <configuration name="C:/Users/firas/Desktop/Selenium_GetHotelsDataT_Jin/src/test/java/ExpediaTest/testNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium_GetHotelsDataT_Jin" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/ExpediaTest/testNG.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/firas/Desktop/Selenium_GetHotelsDataT_Jin/src/test/java/testNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium_GetHotelsDataT_Jin" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/testNG.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/firas/Desktop/Selenium_GetHotelsDataT_Jin/src/test/testNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium_GetHotelsDataT_Jin" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/testNG.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestWithDP (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium_GetHotelsDataT_Jin" />
+  <component name="RunManager" selected="TestNG.testPing">
+    <configuration name="testPing (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWithJenkins-" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestWithDP" />
+      <option name="MAIN_CLASS_NAME" value="testPing" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -105,11 +85,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestWithDP (2)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium_GetHotelsDataT_Jin" />
+    <configuration name="testPing (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWithJenkins-" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestWithDP" />
+      <option name="MAIN_CLASS_NAME" value="testPing" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testPing (4)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWithJenkins-" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="testPing" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testPing" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWithJenkins-" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="testPing" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testPing.testExpediaLinks" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWithJenkins-" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="testPing" />
+      <option name="METHOD_NAME" value="testExpediaLinks" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -118,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/firas/Desktop/Selenium_GetHotelsDataT_Jin/src/test/java/testNG.xml" />
-        <item itemvalue="TestNG.TestWithDP (2)" />
-        <item itemvalue="TestNG.TestWithDP (1)" />
-        <item itemvalue="TestNG.C:/Users/firas/Desktop/Selenium_GetHotelsDataT_Jin/src/test/java/ExpediaTest/testNG.xml" />
-        <item itemvalue="TestNG.C:/Users/firas/Desktop/Selenium_GetHotelsDataT_Jin/src/test/testNG.xml" />
+        <item itemvalue="TestNG.testPing" />
+        <item itemvalue="TestNG.testPing.testExpediaLinks" />
+        <item itemvalue="TestNG.testPing (4)" />
+        <item itemvalue="TestNG.testPing (3)" />
+        <item itemvalue="TestNG.testPing (2)" />
       </list>
     </recent_temporary>
   </component>

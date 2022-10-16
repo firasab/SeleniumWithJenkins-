@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Selenium_loginTask" />
         <module name="Selenium_GetHotelsDataT_Jin" />
+        <module name="SeleniumWithJenkins-" />
         <module name="Selenium_task" />
         <module name="Selenium_GetHotelsDataTask" />
       </profile>
