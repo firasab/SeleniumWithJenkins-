@@ -28,8 +28,8 @@ public class TestWeb {
     ArrayList<ArrayList<String>> outputData = new ArrayList<ArrayList<String>>();
     @BeforeSuite
     public void beforeSuite() throws InterruptedException {
-        //driver = OpenBrowsers.openchromeWithOptions();
-        driver = OpenBrowsers.openBrowser("chrome");
+        driver = OpenBrowsers.openchromeWithOptions();
+        //driver = OpenBrowsers.openBrowser("chrome");
         takeScr = new TakeScreenShot(driver);
         outputHeaders.add("hotel_id");
         outputHeaders.add("name");
