@@ -6,7 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="971da4bc-4085-4db5-a9b7-1113d17e3899" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/OpenBrowsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/OpenBrowsers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/core/TakeScreenShot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/TakeScreenShot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/OpenBrowsers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/OpenBrowsers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/TakeScreenShot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/TakeScreenShot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestWeb.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +72,19 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestWeb">
+  <component name="RunManager" selected="TestNG.TestWeb (2)">
     <configuration name="TestWeb (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWithJenkins-" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestWeb" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWeb (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWithJenkins-" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestWeb" />
@@ -159,10 +175,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestWeb" />
+        <item itemvalue="TestNG.TestWeb (2)" />
         <item itemvalue="TestNG.TestWeb.testExpediaLinks" />
-        <item itemvalue="TestNG.TestWeb (1)" />
         <item itemvalue="TestNG.TestWeb" />
+        <item itemvalue="TestNG.TestWeb (1)" />
         <item itemvalue="TestNG.TestWeb" />
       </list>
     </recent_temporary>

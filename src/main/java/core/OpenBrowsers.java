@@ -72,7 +72,7 @@ public class OpenBrowsers {
             //Instantiating driver object and launching browser
             driver = new FirefoxDriver();
         }else if(browser.equals("chrome")) {
-            System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "./src/main/resources/chromedriver.exe");
 
             //Instantiating driver object
             driver = new ChromeDriver();

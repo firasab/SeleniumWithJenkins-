@@ -1,4 +1,3 @@
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -23,14 +22,14 @@ import pages.BingResults;
 public class TestWeb {
     WebDriver driver;
     TakeScreenShot takeScr;
-    int x =0;
+    int imageNumber =0;
 
     ArrayList<String> outputHeaders = new ArrayList<String>();
     ArrayList<ArrayList<String>> outputData = new ArrayList<ArrayList<String>>();
     @BeforeSuite
     public void beforeSuite() throws InterruptedException {
-        driver = OpenBrowsers.openchromeWithOptions();
-        //driver = OpenBrowsers.openBrowser("chrome");
+        //driver = OpenBrowsers.openchromeWithOptions();
+        driver = OpenBrowsers.openBrowser("chrome");
         takeScr = new TakeScreenShot(driver);
         outputHeaders.add("hotel_id");
         outputHeaders.add("name");
@@ -75,28 +74,25 @@ public class TestWeb {
             if (link.startsWith("https://www.expedia.com/") && link.endsWith("Hotel-Information")) {
                 currOutput.add(link);
                 driver.get(link);
+
                 Thread.sleep(5000);
                 WebElement rate = driver.findElement(By.xpath("//*[@id=\"app-layer-base\"]/div[1]/div[2]/div[1]/div[2]/div[3]/div/div[1]/div/div[2]/div/h3"));
                 currOutput.add(rate.getText());
 
 
                 outputData.add(currOutput);
-                takeScr.takeScreenShot("BeforeTheCheck"+x+".png");
+                takeScr.takeScreenShot("BeforeTheCheck"+imageNumber+".png");
 
                 js.executeScript("document.getElementById('hotels-check-in-btn').click();");
                 js.executeScript("document.querySelector('[aria-label=\"Oct 20, 2022\"]').click();");
                 js.executeScript("document.getElementById('hotels-check-out-btn').click();");
                 js.executeScript("document.querySelector('[aria-label=\"Oct 30, 2022\"]').click();");
                 js.executeScript("document.querySelector('[data-stid=\"apply-date-picker\"]').click();");
-                takeScr.takeScreenShot("AfterTheCheck"+x+".png");
-                x++;
-
+                takeScr.takeScreenShot("AfterTheCheck"+imageNumber+".png");
+                imageNumber++;
                 break;
             }
         }
-
-
-
 
     }
 
@@ -106,7 +102,8 @@ public class TestWeb {
         driver.get("https://www.bing.com/");
     }
     @AfterSuite
-    public void afterSuite() {
+    public void afterSuite() throws InterruptedException {
+        Thread.sleep(10000);
         driver.quit();
         List<String[]> data = new ArrayList<String[]>();
         for(ArrayList<String> row: outputData) {
