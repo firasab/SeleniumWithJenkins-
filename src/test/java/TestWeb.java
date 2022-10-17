@@ -44,7 +44,7 @@ public class TestWeb {
     @DataProvider
     public static Object[][] getData() throws Exception{
 
-        List<String[]> lines = ReadCsvFile.readAllLines("input.csv");
+        List<String[]> lines = ReadCsvFile.readAllLines("input1.csv");
         lines.remove(0);
         Object[][] data = new Object[lines.size()][lines.get(0).length];
         int index = 0;
@@ -67,7 +67,10 @@ public class TestWeb {
         BingHome home = new BingHome(driver);
         home.search(searchText);
         BingResults resPage = new BingResults(driver);
+        Thread.sleep(10000);
         List<String> results = resPage.getLinks();
+
+        takeScr.takeScreenShot("TheCheck"+imageNumber+".png");
 
         for (String link : results) {
 
@@ -78,6 +81,7 @@ public class TestWeb {
                 Thread.sleep(5000);
                 WebElement rate = driver.findElement(By.xpath("//*[@id=\"app-layer-base\"]/div[1]/div[2]/div[1]/div[2]/div[3]/div/div[1]/div/div[2]/div/h3"));
                 currOutput.add(rate.getText());
+              //string sText = js.executeScript("return document.documentElement.innerText;").toString();
 
 
                 outputData.add(currOutput);

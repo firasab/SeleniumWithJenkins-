@@ -67,7 +67,7 @@ public class OpenBrowsers {
         WebDriver driver;
         if(browser.equals("firefox")) {
             //Setting webdriver.gecko.driver property
-            System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver.exe");
+            System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver.exe");
 
             //Instantiating driver object and launching browser
             driver = new FirefoxDriver();
@@ -79,7 +79,7 @@ public class OpenBrowsers {
         }else if(browser.equals("edge")) {
             System.setProperty(
                     "webdriver.edge.driver",
-                    "./drivers/msedgedriver.exe");
+                    "src/main/resources/msedgedriver.exe");
             // Instantiate a ChromeDriver class.
             driver = new EdgeDriver();
         }else {
