@@ -25,7 +25,7 @@ public class TakeScreenShot {
         //Copy file at destination
 
         FileUtils.copyFile(SrcFile, DestFile);
-        //Allure.addAttachment("Screenshot", FileUtils.openInputStream(SrcFile));
+        Allure.addAttachment("Screenshot", FileUtils.openInputStream(SrcFile));
 
 
     }

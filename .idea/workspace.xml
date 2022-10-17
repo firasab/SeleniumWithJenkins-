@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="971da4bc-4085-4db5-a9b7-1113d17e3899" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/OpenBrowsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/OpenBrowsers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/core/TakeScreenShot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/TakeScreenShot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestWeb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/OpenBrowsers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/OpenBrowsers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/TakeScreenShot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/TakeScreenShot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestWeb.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
